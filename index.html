@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch Hearts &#9829;</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen">
+    <h1>Catch The Hearts &#9829;</h1>
+    <p>Use the left and right arrow keys to move your basket. Catch as many hearts as you can!</p>
+    <button id="start-button">Start Game</button>
+  </div>
+
+  <!-- Game Area -->
+  <div id="game-area" class="hidden">
+    <div id="timer">Time: 30</div>
+    <canvas id="game-canvas"></canvas>
+  </div>
+
+  <!-- End Screen -->
+  <div id="end-screen" class="screen hidden">
+    <h1>Game Over!</h1>
+    <p>Your Score: <span id="final-score"></span></p>
+    <button id="play-again-button">Play Again</button>
+  </div>
+
+  <script src="index.js" defer></script>
+</body>
+</html>
